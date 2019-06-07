@@ -1,3 +1,9 @@
+.button {
+  border-radius: 12px;
+  padding: 10px 25px;
+  background: #22283A;
+  color: #F6F6F6;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -165,17 +171,6 @@ nav {
   flex-wrap: wrap;
   flex-direction: column;
 }
-nav .title {
-  display: flex;
-  width: 100%;
-  text-align: center;
-  text-decoration: none;
-  color: darkslategray;
-  padding: 2rem;
-  font-size: 100%;
-  justify-content: center;
-  font-weight: bold;
-}
 nav .nav-items {
   display: flex;
   flex-wrap: wrap;
@@ -188,7 +183,21 @@ nav .nav-items a {
   flex-wrap: wrap;
   text-decoration: none;
   color: black;
+  padding: 1rem;
+}
+header .title {
+  display: flex;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+  color: #5E6164;
   padding: 2rem;
+  font-size: 100%;
+  justify-content: center;
+  font-weight: bold;
+}
+header h2 {
+  font-size: 3rem;
 }
 footer {
   color: #22283B;
