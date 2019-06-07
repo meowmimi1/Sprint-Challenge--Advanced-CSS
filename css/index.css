@@ -163,27 +163,32 @@ p {
 nav {
   display: flex;
   flex-wrap: wrap;
-  font-size: 2rem;
-  justify-content: center;
+  flex-direction: column;
 }
 nav .title {
-  display: block;
-  flex-wrap: wrap;
+  display: flex;
+  width: 100%;
+  text-align: center;
   text-decoration: none;
-  color: black;
-  padding: 3rem;
-  font-size: 3rem;
+  color: darkslategray;
+  padding: 2rem;
+  font-size: 100%;
+  justify-content: center;
+  font-weight: bold;
 }
 nav .nav-items {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  font-size: 2rem;
 }
 nav .nav-items a {
   display: flex;
   flex-wrap: wrap;
   text-decoration: none;
   color: black;
-  padding: 3rem;
+  padding: 2rem;
 }
 footer {
   color: #22283B;
