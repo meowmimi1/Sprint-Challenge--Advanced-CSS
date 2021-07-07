@@ -1,1 +1,19 @@
 // Mixins Here
+.button1(@background-color: @btn-bg-color, @font: #fff){
+    border-radius: 12px;
+    background-color: @background-color;
+    color: @font;
+    padding: 5px 15px;
+    width: 90px;
+    &:hover{
+        background-color: @nav-border;
+        color: black;
+    }
+}
+
+.button-color(@background, @color){
+    color: @background @color;
+
+
+ }
+
